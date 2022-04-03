@@ -26,7 +26,7 @@ class DeliveryClass {
                              'error' => '',
                              ];
                }else{
-                $response = 'после 18.00 заявки не принимаются';
+               $response = ['price' => '','date' => '','error' => 'после 18.00 заявки не принимаются',];
                }
            }else{
                 $response = 'не найдено';
